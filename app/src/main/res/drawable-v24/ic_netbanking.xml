@@ -1,0 +1,51 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="512dp"
+    android:height="512dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+  <path
+      android:pathData="m28,62h-22c-2.209,0 -4,-1.791 -4,-4v-52c0,-2.209 1.791,-4 4,-4h22c2.209,0 4,1.791 4,4v52c0,2.209 -1.791,4 -4,4z"
+      android:fillColor="#8892a0"/>
+  <path
+      android:pathData="M17,56m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"
+      android:fillColor="#fff"/>
+  <path
+      android:pathData="m2,10h30v40h-30z"
+      android:fillColor="#a2dbf7"/>
+  <path
+      android:pathData="m2,45.919c0.496,0.048 0.996,0.081 1.5,0.081 12.979,0 23.5,-16.118 23.5,-36h-25z"
+      android:fillColor="#c7e9fa"/>
+  <path
+      android:pathData="m10,26h8v18h-8z"
+      android:fillColor="#4472b2"/>
+  <path
+      android:pathData="m36,28h26v18h-26z"
+      android:fillColor="#96cc7f"/>
+  <path
+      android:pathData="m36,43.782c9.954,-1.244 17.742,-7.708 18.859,-15.782h-18.859z"
+      android:fillColor="#c0e0b2"/>
+  <path
+      android:pathData="m36,28h26v4h-26z"
+      android:fillColor="#8892a0"/>
+  <path
+      android:pathData="m54.859,28h-18.859v4h17.715c0.563,-1.274 0.952,-2.613 1.144,-4z"
+      android:fillColor="#b8bec6"/>
+  <path
+      android:pathData="m56,38c-0.366,0 -0.705,0.106 -1,0.277 -0.295,-0.171 -0.634,-0.277 -1,-0.277 -1.105,0 -2,0.895 -2,2s0.895,2 2,2c0.366,0 0.705,-0.106 1,-0.277 0.295,0.171 0.634,0.277 1,0.277 1.105,0 2,-0.895 2,-2s-0.895,-2 -2,-2z"
+      android:fillColor="#8892a0"/>
+  <path
+      android:pathData="m49,28h-13v8h7c1.657,0 3,1.343 3,3 0,1.657 -1.343,3 -3,3h-25v-14h4l9,-6h12z"
+      android:fillColor="#efbe9a"/>
+  <path
+      android:pathData="m14,5h6v2h-6z"
+      android:fillColor="#fff"/>
+  <path
+      android:pathData="m39,49h20v2h-20z"
+      android:fillColor="#b8bec6"/>
+  <path
+      android:pathData="m61,49h2v2h-2z"
+      android:fillColor="#b8bec6"/>
+  <path
+      android:pathData="m37,53h20v2h-20z"
+      android:fillColor="#b8bec6"/>
+</vector>

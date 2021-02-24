@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/list_background"
+    android:layout_marginStart="@dimen/_10sdp"
+    app:cardCornerRadius="@dimen/_5sdp"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_marginEnd="@dimen/_5sdp">
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        android:layout_gravity="center"-->
+    <!--       >-->
+
+    <!--        <de.hdodenhof.circleimageview.CircleImageView-->
+    <!--            xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--            android:id="@+id/mobo_win_logo"-->
+    <!--            android:layout_width="50dp"-->
+    <!--            android:layout_height="50dp"-->
+    <!--            android:src="@drawable/ic_quiz"-->
+    <!--            />-->
+    <!--&lt;!&ndash;        <ImageView&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:src="@drawable/ic_quiz"&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:layout_gravity="center"&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:tint="@color/colorPrimaryDark"/>&ndash;&gt;-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/txtName"-->
+    <!--           android:layout_marginLeft="@dimen/_10sdp"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_gravity="center_vertical"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:textSize="@dimen/_16sdp"-->
+    <!--            android:textColor="@color/Grey_800"-->
+    <!--            android:fontFamily="@font/ubuntur"-->
+    <!--            android:text="RRB NTPC"/>-->
+    <!--    </LinearLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+
+        <ImageView
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="50dp"
+            android:id="@+id/categoryImage"
+            android:src="@drawable/ic_quiz" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RRB NTPC"
+            android:id="@+id/txtName"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <!--        <TextView-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="JEE, BITSAT aDVANCE jee"-->
+        <!--            android:textAlignment="center"-->
+        <!--            android:textColor="#000" />-->
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

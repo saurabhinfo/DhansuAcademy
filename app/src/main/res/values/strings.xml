@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Dhansu Academy</string>
+
+    <!--    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>-->
+
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_notification_channel_id">com.online.onlinepadhaiwala.Notification.MyService</string>
+    <string name="sample_mail_id">name@examplecom</string>
+    <string name="email_validation">Enter your email ID</string>
+    <string name="not_valid_email">Not a valid email ID</string>
+    <string name="password_txt">******</string>
+    <string name="password_validation">Password could not be left empty</string>
+    <string name="password_size">Password size must be atleast 6</string>
+    <string name="oops_connect_your_internet">Oops ! Connect your Internet</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="please_try_again">Please try again</string>
+    <string name="title_activity_result_page">ResultPage</string>
+    <string name="tab_text_1">Overview</string>
+    <string name="tab_text_2">Report</string>
+    <string name="tab_text_3">Solutions</string>
+    <string name="tab_text_4">Overviews</string>
+    <string name="title_activity_livetest_list">LivetestListActivity</string>
+    <string name="title_activity_note_details">NoteDetailsActivity</string>
+    <string name="title_activity_forget_password">Forget Password</string>
+    <string name="user_spinner_hint">Select Subject</string>
+    <string name="title_activity_planactivity">Plan</string>
+    <string name="otp_screen">Verification OTP sent to </string>
+    <string name="select_exam">Select Exam</string>
+</resources>

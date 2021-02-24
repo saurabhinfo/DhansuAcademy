@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/banner"
+    android:layout_height="200dp">
+
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    app:cardBackgroundColor="@color/white"
+    android:layout_centerInParent="true"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="5dp"
+    android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerHorizontal="true"
+                android:padding="4dp"
+                android:id="@+id/live_test"
+                android:background="@drawable/round_corner"
+                >
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="4dp"
+                    android:src="@drawable/red_dot"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LIVE TEST"
+                    android:fontFamily="@font/muli_semibold"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="@dimen/_13sdp"
+                    android:textColor="@color/red"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/live_test_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:layout_below="@+id/live_test"
+                android:fontFamily="@font/muli_semibold"
+                android:text="Testing"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/fromDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20th Aug 2018"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="To"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/black"/>
+
+
+                <TextView
+                    android:id="@+id/toDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="20th Aug 2018"/>
+
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/startNow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/colorAccent"
+                android:text="Start Now"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

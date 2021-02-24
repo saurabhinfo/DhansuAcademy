@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".dashboardModule.Login">
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        app:srcCompat="@drawable/opw_logo" />
+
+
+    <EditText
+        android:id="@+id/etPhonenumer"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:background="@drawable/rectanglewhite"
+        android:drawableStart="@drawable/ic_person_outline_black_24dp"
+        android:drawablePadding="6dp"
+        android:ems="10"
+        android:hint="+91 Mobile Number"
+        android:inputType="number"
+        android:paddingLeft="18dp"
+        android:animateLayoutChanges="true"
+        android:textColorHint="#13AFF6"
+        />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:background="@drawable/rectanglewhite"
+        android:drawableStart="@drawable/ic_person_outline_black_24dp"
+        android:drawablePadding="6dp"
+        android:ems="10"
+        android:hint="xyz@domain.com"
+        android:animateLayoutChanges="true"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="18dp"
+        android:visibility="gone"
+        android:textColorHint="#13AFF6"
+        />
+
+    <TextView
+        android:id="@+id/txtSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or login with email ?"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#E91E63"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:layout_marginLeft="5dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/btnLogIn"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginBottom="216dp"
+        android:textAllCaps="false"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:background="@drawable/darkrectangle2"
+        android:text="Continue"
+        android:textColor="#fff"
+        />
+
+
+
+    <!--    <com.google.android.gms.common.SignInButton-->
+    <!--        android:layout_width="125dp"-->
+    <!--        android:layout_height="44dp"-->
+    <!--        android:id="@+id/sign_in_button"-->
+    <!--        android:textAllCaps="false"-->
+    <!--        android:textColor="#fff"-->
+    <!--        android:background="@drawable/rectangleorange"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.811"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.893">-->
+
+    <!--    </com.google.android.gms.common.SignInButton>-->
+
+
+
+
+</LinearLayout>

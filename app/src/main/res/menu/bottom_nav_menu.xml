@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/title_home"
+       />
+    <item
+        android:icon="@drawable/ic_classroom"
+        android:title="Classroom"
+        android:id="@+id/navigation_courses"
+
+         />
+    <item
+        android:id="@+id/navigation_quiz"
+        android:icon="@drawable/ic_quiz_build"
+        android:title="Quize"
+       />
+    <item
+        android:id="@+id/navigation_test"
+        android:icon="@drawable/ic_modelpaper"
+        android:title="Model Paper"
+        />
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/navbar_02"
+        android:enabled="true"
+        android:title="More" />
+
+</menu>

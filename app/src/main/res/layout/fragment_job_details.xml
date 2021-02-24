@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never"
+    android:fillViewport="true"
+    tools:context=".fragments.JobDetails">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@color/white"
+       android:orientation="vertical">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/txtHeader"
+           android:background="@color/colorPrimary"
+           android:padding="@dimen/_10sdp"
+           android:textSize="@dimen/_12sdp"
+           android:textColor="@color/white"
+           android:fontFamily="@font/muli_semibold"
+           android:text="IDBI Bank Recruitment 2019 – Apply Online for 600 Asst Manager Posts"/>
+
+       <LinearLayout
+           android:layout_marginTop="@dimen/_12sdp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="@dimen/_10sdp"
+           android:layout_marginEnd="@dimen/_10sdp"
+           android:padding="@dimen/_5sdp">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Name of the post :"
+               android:fontFamily="@font/muli_bold"
+               android:textColor="@color/colorAccent"
+               android:textSize="@dimen/_13sdp"/>
+
+           <TextView
+               android:id="@+id/txtPosts"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Name of the post :"
+               android:paddingStart="@dimen/_5sdp"
+               android:fontFamily="@font/muli_bold"
+               android:textColor="@color/black"
+               android:textSize="@dimen/_12sdp"/>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_marginTop="@dimen/_5sdp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="@dimen/_10sdp"
+           android:layout_marginEnd="@dimen/_10sdp"
+           android:padding="@dimen/_5sdp">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Post Date :"
+               android:fontFamily="@font/muli_bold"
+               android:textColor="@color/colorAccent"
+               android:textSize="@dimen/_13sdp"/>
+
+           <TextView
+               android:id="@+id/txtPostDate"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Name of the post :"
+               android:paddingStart="@dimen/_5sdp"
+               android:fontFamily="@font/muli_bold"
+               android:textColor="@color/black"
+               android:textSize="@dimen/_12sdp"/>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_marginTop="@dimen/_5sdp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="@dimen/_10sdp"
+           android:layout_marginEnd="@dimen/_10sdp"
+           android:padding="@dimen/_5sdp">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Total Vaccancy :"
+               android:fontFamily="@font/muli_bold"
+               android:textColor="@color/colorAccent"
+               android:textSize="@dimen/_13sdp"/>
+
+           <TextView
+               android:id="@+id/txtVaccancy"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Name of the post :"
+               android:paddingStart="@dimen/_5sdp"
+               android:fontFamily="@font/muli_bold"
+               android:textColor="@color/black"
+               android:textSize="@dimen/_12sdp"/>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_marginTop="@dimen/_5sdp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="@dimen/_10sdp"
+           android:layout_marginEnd="@dimen/_10sdp"
+           android:padding="@dimen/_5sdp">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Information :"
+               android:fontFamily="@font/muli_bold"
+               android:textColor="@color/colorAccent"
+               android:textSize="@dimen/_13sdp"/>
+           <TextView
+               android:id="@+id/txtInformation"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Name of the post :"
+               android:paddingStart="@dimen/_5sdp"
+               android:fontFamily="@font/muli_bold"
+               android:textColor="@color/black"
+               android:textSize="@dimen/_12sdp"/>
+       </LinearLayout>
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="@dimen/_1sdp"
+           android:layout_marginTop="@dimen/_10sdp"
+           android:background="@color/colorPrimary"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:padding="@dimen/_7sdp"
+           android:textColor="@color/colorPrimary"
+           android:fontFamily="@font/muli_bold"
+           android:textSize="@dimen/_14sdp"
+           android:text="Application Fee"/>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingStart="@dimen/_10sdp"
+           android:paddingEnd="@dimen/_10sdp"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:textSize="@dimen/_12sdp"
+               android:layout_height="wrap_content"
+               android:drawablePadding="@dimen/_10sdp"
+               android:drawableStart="@drawable/ic_bullet"
+               android:text="For all Others:"/>
+           <TextView
+               android:id="@+id/txtOtherFee"
+               android:layout_width="wrap_content"
+               android:textSize="@dimen/_12sdp"
+               android:paddingStart="@dimen/_7sdp"
+               android:layout_height="wrap_content"
+               android:textColor="@color/black"
+               android:fontFamily="@font/muli_bold"
+               android:text="For all Others:"/>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingStart="@dimen/_10sdp"
+           android:paddingEnd="@dimen/_10sdp"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:textSize="@dimen/_12sdp"
+               android:layout_height="wrap_content"
+               android:drawablePadding="@dimen/_10sdp"
+               android:drawableStart="@drawable/ic_bullet"
+               android:text="SC/ ST/ PWD:"/>
+           <TextView
+               android:id="@+id/txtScst"
+               android:layout_width="wrap_content"
+               android:textSize="@dimen/_12sdp"
+               android:paddingStart="@dimen/_7sdp"
+               android:layout_height="wrap_content"
+               android:textColor="@color/black"
+               android:fontFamily="@font/muli_bold"
+               android:text="For all Others:"/>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingStart="@dimen/_10sdp"
+           android:paddingEnd="@dimen/_10sdp"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:textSize="@dimen/_12sdp"
+               android:layout_height="wrap_content"
+               android:drawablePadding="@dimen/_10sdp"
+               android:drawableStart="@drawable/ic_bullet"
+               android:text="Payment Mode: "/>
+           <TextView
+               android:id="@+id/txtPayment"
+               android:layout_width="wrap_content"
+               android:textSize="@dimen/_12sdp"
+               android:paddingStart="@dimen/_7sdp"
+               android:layout_height="wrap_content"
+               android:textColor="@color/black"
+               android:fontFamily="@font/muli_bold"
+               android:text="For all Others:"/>
+       </LinearLayout>
+
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="@dimen/_1sdp"
+           android:layout_marginTop="@dimen/_10sdp"
+           android:background="@color/colorPrimary"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:padding="@dimen/_7sdp"
+           android:textColor="@color/colorPrimary"
+           android:fontFamily="@font/muli_bold"
+           android:textSize="@dimen/_14sdp"
+           android:text="Important Dates"/>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingStart="@dimen/_10sdp"
+           android:paddingEnd="@dimen/_10sdp"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:textSize="@dimen/_12sdp"
+               android:layout_height="wrap_content"
+               android:drawablePadding="@dimen/_10sdp"
+               android:drawableStart="@drawable/ic_bullet"
+               android:text="Starting Date"/>
+           <TextView
+               android:id="@+id/txtStartDate"
+               android:layout_width="wrap_content"
+               android:textSize="@dimen/_12sdp"
+               android:paddingStart="@dimen/_7sdp"
+               android:layout_height="wrap_content"
+               android:textColor="@color/black"
+               android:fontFamily="@font/muli_bold"
+               android:text="For all Others:"/>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingStart="@dimen/_10sdp"
+           android:paddingEnd="@dimen/_10sdp"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:textSize="@dimen/_12sdp"
+               android:layout_height="wrap_content"
+               android:drawablePadding="@dimen/_10sdp"
+               android:drawableStart="@drawable/ic_bullet"
+               android:text="Last Date"/>
+           <TextView
+               android:id="@+id/txtLastDate"
+               android:layout_width="wrap_content"
+               android:textSize="@dimen/_12sdp"
+               android:paddingStart="@dimen/_7sdp"
+               android:layout_height="wrap_content"
+               android:textColor="@color/black"
+               android:fontFamily="@font/muli_bold"
+               android:text="For all Others:"/>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingStart="@dimen/_10sdp"
+           android:paddingEnd="@dimen/_10sdp"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:textSize="@dimen/_12sdp"
+               android:layout_height="wrap_content"
+               android:drawablePadding="@dimen/_10sdp"
+               android:drawableStart="@drawable/ic_bullet"
+               android:text="Admit Card Date:"/>
+           <TextView
+               android:id="@+id/txtAdmitCardDate"
+               android:layout_width="wrap_content"
+               android:textSize="@dimen/_12sdp"
+               android:paddingStart="@dimen/_7sdp"
+               android:layout_height="wrap_content"
+               android:textColor="@color/black"
+               android:fontFamily="@font/muli_bold"
+               android:text="For all Others:"/>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingStart="@dimen/_10sdp"
+           android:paddingEnd="@dimen/_10sdp"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:textSize="@dimen/_12sdp"
+               android:layout_height="wrap_content"
+               android:drawablePadding="@dimen/_10sdp"
+               android:drawableStart="@drawable/ic_bullet"
+               android:text="Date of Online Test:"/>
+           <TextView
+               android:id="@+id/txtTestDate"
+               android:layout_width="wrap_content"
+               android:textSize="@dimen/_12sdp"
+               android:paddingStart="@dimen/_7sdp"
+               android:layout_height="wrap_content"
+               android:textColor="@color/black"
+               android:fontFamily="@font/muli_bold"
+               android:text="For all Others:"/>
+       </LinearLayout>
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="@dimen/_1sdp"
+           android:layout_marginTop="@dimen/_10sdp"
+           android:background="@color/colorPrimary"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:padding="@dimen/_7sdp"
+           android:textColor="@color/colorPrimary"
+           android:fontFamily="@font/muli_bold"
+           android:textSize="@dimen/_14sdp"
+           android:text="Age Limit as "/>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingStart="@dimen/_10sdp"
+           android:paddingEnd="@dimen/_10sdp"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:textSize="@dimen/_12sdp"
+               android:layout_height="wrap_content"
+               android:drawablePadding="@dimen/_10sdp"
+               android:drawableStart="@drawable/ic_bullet"
+               android:text="Minimum:"/>
+           <TextView
+               android:id="@+id/txtMinimumAge"
+               android:layout_width="wrap_content"
+               android:textSize="@dimen/_12sdp"
+               android:paddingStart="@dimen/_7sdp"
+               android:layout_height="wrap_content"
+               android:textColor="@color/black"
+               android:fontFamily="@font/muli_bold"
+               android:text="For all Others:"/>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingStart="@dimen/_10sdp"
+           android:paddingEnd="@dimen/_10sdp"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:textSize="@dimen/_12sdp"
+               android:layout_height="wrap_content"
+               android:drawablePadding="@dimen/_10sdp"
+               android:drawableStart="@drawable/ic_bullet"
+               android:text="Maximum: "/>
+           <TextView
+               android:id="@+id/txtMaxAge"
+               android:layout_width="wrap_content"
+               android:textSize="@dimen/_12sdp"
+               android:paddingStart="@dimen/_7sdp"
+               android:layout_height="wrap_content"
+               android:textColor="@color/black"
+               android:fontFamily="@font/muli_bold"
+               android:text="For all Others:"/>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingStart="@dimen/_10sdp"
+           android:paddingEnd="@dimen/_10sdp"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:textSize="@dimen/_12sdp"
+               android:layout_height="wrap_content"
+               android:drawablePadding="@dimen/_10sdp"
+               android:drawableStart="@drawable/ic_bullet"
+               android:fontFamily="@font/muli_bold"
+               android:text="Age relaxation is applicable as per rules "/>
+
+       </LinearLayout>
+
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="@dimen/_1sdp"
+           android:layout_marginTop="@dimen/_10sdp"
+           android:background="@color/colorPrimary"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:padding="@dimen/_7sdp"
+           android:textColor="@color/colorPrimary"
+           android:fontFamily="@font/muli_bold"
+           android:textSize="@dimen/_14sdp"
+           android:text="Educational Qualification"/>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingStart="@dimen/_10sdp"
+           android:paddingEnd="@dimen/_10sdp"
+           android:orientation="horizontal">
+
+           <TextView
+               android:id="@+id/txtQuialification"
+               android:layout_width="wrap_content"
+               android:textSize="@dimen/_12sdp"
+               android:layout_height="wrap_content"
+               android:drawablePadding="@dimen/_10sdp"
+               android:drawableStart="@drawable/ic_bullet"
+               android:fontFamily="@font/muli_bold"
+               android:text="Candidates should possess Graduation from a recogn"/>
+
+       </LinearLayout>
+   </LinearLayout>
+
+</ScrollView>

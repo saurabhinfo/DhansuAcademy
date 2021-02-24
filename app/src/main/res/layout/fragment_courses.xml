@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.ClassRoom.Courses">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/select_exam_and_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:orientation="horizontal"
+                android:padding="15dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Conquer JEE 2021"
+                    android:textStyle="bold"
+                    android:id="@+id/categoryname"
+                    android:textSize="18dp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="10dp"/>
+
+                <ImageView
+                    android:id="@+id/drop_down_button"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="@drawable/ic_right_arrow"
+                    android:layout_marginLeft="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/livetest"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/liveTest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/red"
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/ubuntur"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/round_corner"
+                    android:text="LIVE Test"/>
+
+
+                <TextView
+                    android:id="@+id/available_test_text"
+                    android:layout_width="156dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/ubuntur"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Available Test - 0"
+                    android:textColor="@color/green"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="129dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/ubuntur"
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="Get Test"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        />
+    <androidx.viewpager.widget.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:layout_below="@+id/toolbar"-->
+    <!--        android:orientation="vertical"-->
+    <!--        android:paddingTop="@dimen/_5sdp">-->
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="vertical"-->
+    <!--            android:background="#fff"-->
+    <!--            android:id="@+id/recVideoMyCoursesLayout">-->
+
+    <!--            <TextView-->
+
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="My Courses"-->
+    <!--                android:textStyle="bold"-->
+    <!--                android:textColor="#000000"-->
+    <!--                android:layout_marginBottom="10dp"-->
+    <!--                android:layout_marginStart="23dp"-->
+    <!--                android:layout_marginTop="10dp"/>-->
+
+    <!--        </LinearLayout>-->
+
+
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="vertical"-->
+    <!--            android:background="#fff"-->
+    <!--            android:id="@+id/recVideoCoursesLayout">-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/textView15"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="All Courses"-->
+    <!--                android:textStyle="bold"-->
+    <!--                android:textColor="#000000"-->
+    <!--                android:layout_marginBottom="10dp"-->
+    <!--                android:layout_marginStart="23dp"-->
+    <!--                android:layout_marginTop="10dp"/>-->
+
+    <!--        </LinearLayout>-->
+
+    <!--        <androidx.recyclerview.widget.RecyclerView-->
+    <!--            android:id="@+id/recVideoCourses"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:overScrollMode="never"-->
+    <!--            android:visibility="gone"/>-->
+
+    <!--        <LinearLayout-->
+    <!--            android:id="@+id/layout"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:gravity="center"-->
+    <!--            android:orientation="vertical">-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="@dimen/_96sdp"-->
+    <!--                android:layout_height="@dimen/_96sdp"-->
+    <!--                android:src="@drawable/ic_courses"-->
+    <!--                android:tint="@color/colorPrimary" />-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:fontFamily="@font/muli_bold"-->
+    <!--                android:padding="@dimen/_12sdp"-->
+    <!--                android:text="Video Course not available"-->
+    <!--                android:textColor="@color/colorPrimary" />-->
+    <!--        </LinearLayout>-->
+    <!--    </LinearLayout>-->
+
+
+</LinearLayout>

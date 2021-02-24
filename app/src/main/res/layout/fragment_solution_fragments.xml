@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".fragments.SolutionFragments">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:weightSum="4">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:padding="@dimen/_5sdp"
+            android:id="@+id/all"
+            android:background="#ccc"
+            android:text="All"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:padding="@dimen/_5sdp"
+            android:id="@+id/rightanswer"
+            android:background="#8fea90"
+            android:text="Right Ans"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:padding="@dimen/_5sdp"
+            android:textColor="#ffffff"
+            android:id="@+id/wronganswer"
+            android:background="#ff0000"
+            android:text="Wrong Ans"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:padding="@dimen/_5sdp"
+            android:textColor="#000"
+            android:id="@+id/skipquestion"
+            android:background="#ccc"
+            android:text="Skip Answer"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <!-- TODO: Update blank fragment layout -->
+   <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/recQue"
+       android:overScrollMode="never"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+   </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

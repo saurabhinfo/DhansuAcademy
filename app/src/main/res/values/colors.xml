@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="colorPrimary">#ff9933</color>-->
+    <color name="colorPrimary">#2196F3</color>
+<!--    <color name="colorPrimaryDark">#e67300</color>-->
+    <color name="colorPrimaryDark">#2196F3</color>
+    <color name="colorAccent">#2196F3</color>
+    <color name="blue_color">#2196F3</color>
+
+    <color name="white">#ffffff</color>
+    <color name="editcolor">#f4f5f9</color>
+    <color name="black">#000000</color>
+    <color name="red">#D50000</color>
+    <color name="green">#00C853</color>
+    <color name="tintcolor">#9499a7</color>
+    <color name="contentTextColor">#020000</color>
+
+    <color name="color1">#2196F3</color>
+    <color name="color2">#D02D0A</color>
+    <color name="color3">#9B2006</color>
+    <color name="color4">#AF5B49</color>
+    <color name="color5">#E38773</color>
+    <color name="Grey_100">#F5F5F5</color>
+    <color name="Grey_200">#EEEEEE</color>
+    <color name="Grey_300">#E0E0E0</color>
+    <color name="Grey_400">#BDBDBD</color>
+    <color name="Grey_50">#FAFAFA</color>
+    <color name="Grey_500">#9E9E9E</color>
+    <color name="Grey_600">#757575</color>
+    <color name="Grey_700">#616161</color>
+    <color name="Grey_800">#424242</color>
+    <color name="Grey_900">#212121</color>
+
+
+</resources>

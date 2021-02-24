@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/all"
+        android:title="All Courses" />
+    <item
+        android:id="@+id/banking"
+        android:title="BANKING"/>
+    <item
+        android:id="@+id/railway"
+        android:title="RAILWAY"/>
+    <item
+        android:id="@+id/ssc"
+        android:title="SSC"/>
+</menu>

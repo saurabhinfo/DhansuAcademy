@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txtTestSerie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:fontFamily="@font/ubuntur"
+                android:textSize="@dimen/_12sdp"
+                android:text="Title of quiz goes here?"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/_2sdp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_13sdp"
+                    android:fontFamily="@font/ubuntur"
+                    android:text="Course:"/>
+                <TextView
+                    android:id="@+id/txtCourseName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/_13sdp"
+                    android:fontFamily="@font/ubuntur"
+                    android:text=" Basics of HTML"/>
+            </LinearLayout>
+        </LinearLayout>
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:id="@+id/layoutResult"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+
+            android:layout_marginEnd="@dimen/_6sdp"
+            android:padding="@dimen/_12sdp">
+            <TextView
+                android:id="@+id/txtMarks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5.8"
+                android:fontFamily="@font/ubuntur"
+                android:textSize="@dimen/_18sdp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/txtResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Good"
+                android:fontFamily="@font/ubuntur"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_1sdp"
+    android:background="@color/cardview_shadow_start_color"/>
+</LinearLayout>
